@@ -24,10 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
 		Student[] students = new Student[5];
 
-		Student temp;
+		Student temp;//more bullshit
 		for (int i = 0; i < 5; i++) {
 			temp = new Student();
-			temp.setName(name[i]);//this is bullshit
+			temp.setName(name[i]);//this is bullshit, i repeat this is bullshit
 			temp.setDOB(DOB[i]);
 			temp.setStatus(status[i]);
 			temp.setGrade(grade[i]);
